@@ -12,5 +12,10 @@ ros2 run tf2_ros static_transform_publisher 0 0 0.2 0 0 0 base_link laser
 ros2 launch slam_toolbox online_sync_launch.py scan_topic:=/scan use_sim_time:=false
 
 ```
+Try to get /odom topics
 
+```
+ros2 run wheel_control motor_driver_node
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
+```
