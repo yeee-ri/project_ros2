@@ -1,6 +1,6 @@
 def cal_vel(ch):
-    vel = 20
-    turn = 10
+    vel = 50
+    turn = 30
 
     if ch == 'w': #forward
         return 0,vel,-vel
