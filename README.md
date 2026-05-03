@@ -19,3 +19,5 @@ ros2 run wheel_control motor_driver_node
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 ```
+
+--> /odom + slam_toolbox해서 mapping해보기
