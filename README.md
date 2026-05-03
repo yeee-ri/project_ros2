@@ -1,5 +1,5 @@
 # project_ros2
-Using slam_toolbox
+Using a slam_toolbox
 ```
 ros2 launch sllidar_ros2 sllidar_s1_launch.py serial_port:=/dev/ttyUSB1 
 
@@ -12,7 +12,7 @@ ros2 run tf2_ros static_transform_publisher 0 0 0.2 0 0 0 base_link laser
 ros2 launch slam_toolbox online_sync_launch.py scan_topic:=/scan use_sim_time:=false
 
 ```
-Try to get /odom topics
+Try to get /odom topic
 
 ```
 ros2 run wheel_control motor_driver_node
